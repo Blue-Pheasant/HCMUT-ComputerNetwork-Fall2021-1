@@ -65,6 +65,7 @@ class Client:
 		self.label = Label(self.master, height=19)
 		self.label.grid(row=0, column=0, columnspan=4, sticky=W+E+N+S, padx=5, pady=5) 
 	
+	# START CODE
 	def setupMovie(self):
 		"""Setup button handler."""
 		if self.state == self.INIT:
